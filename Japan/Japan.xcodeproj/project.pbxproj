@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		733EA9D014552F720047D916 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733EA9CF14552F720047D916 /* UIKit.framework */; };
+		733EA9D214552F720047D916 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733EA9D114552F720047D916 /* Foundation.framework */; };
+		733EA9D414552F720047D916 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733EA9D314552F720047D916 /* CoreGraphics.framework */; };
+		733EA9DA14552F720047D916 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 733EA9D814552F720047D916 /* InfoPlist.strings */; };
+		733EA9DD14552F720047D916 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 733EA9DC14552F720047D916 /* main.m */; };
+		733EA9E014552F720047D916 /* JapanAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 733EA9DF14552F720047D916 /* JapanAppDelegate.m */; };
+		733EA9E414552F720047D916 /* JapanAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 733EA9E314552F720047D916 /* JapanAppDelegate_iPhone.m */; };
+		733EA9E714552F720047D916 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 733EA9E514552F720047D916 /* MainWindow_iPhone.xib */; };
+		733EA9EB14552F720047D916 /* JapanAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 733EA9EA14552F720047D916 /* JapanAppDelegate_iPad.m */; };
+		733EA9EE14552F720047D916 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 733EA9EC14552F720047D916 /* MainWindow_iPad.xib */; };
+		73AB0B2014552FBE0035A31C /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AB0B1F14552FBE0035A31C /* View.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		733EA9CB14552F720047D916 /* Japan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Japan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		733EA9CF14552F720047D916 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		733EA9D114552F720047D916 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		733EA9D314552F720047D916 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		733EA9D714552F720047D916 /* Japan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Japan-Info.plist"; sourceTree = "<group>"; };
+		733EA9D914552F720047D916 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		733EA9DB14552F720047D916 /* Japan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Japan-Prefix.pch"; sourceTree = "<group>"; };
+		733EA9DC14552F720047D916 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		733EA9DE14552F720047D916 /* JapanAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JapanAppDelegate.h; sourceTree = "<group>"; };
+		733EA9DF14552F720047D916 /* JapanAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JapanAppDelegate.m; sourceTree = "<group>"; };
+		733EA9E214552F720047D916 /* JapanAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JapanAppDelegate_iPhone.h; path = iPhone/JapanAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		733EA9E314552F720047D916 /* JapanAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JapanAppDelegate_iPhone.m; path = iPhone/JapanAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		733EA9E614552F720047D916 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		733EA9E914552F720047D916 /* JapanAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JapanAppDelegate_iPad.h; path = iPad/JapanAppDelegate_iPad.h; sourceTree = "<group>"; };
+		733EA9EA14552F720047D916 /* JapanAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JapanAppDelegate_iPad.m; path = iPad/JapanAppDelegate_iPad.m; sourceTree = "<group>"; };
+		733EA9ED14552F720047D916 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		73AB0B1E14552FBE0035A31C /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		73AB0B1F14552FBE0035A31C /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		733EA9C814552F720047D916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				733EA9D014552F720047D916 /* UIKit.framework in Frameworks */,
+				733EA9D214552F720047D916 /* Foundation.framework in Frameworks */,
+				733EA9D414552F720047D916 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		733EA9C014552F720047D916 = {
+			isa = PBXGroup;
+			children = (
+				73AB0B1E14552FBE0035A31C /* View.h */,
+				73AB0B1F14552FBE0035A31C /* View.m */,
+				733EA9D514552F720047D916 /* Japan */,
+				733EA9CE14552F720047D916 /* Frameworks */,
+				733EA9CC14552F720047D916 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		733EA9CC14552F720047D916 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				733EA9CB14552F720047D916 /* Japan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		733EA9CE14552F720047D916 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				733EA9CF14552F720047D916 /* UIKit.framework */,
+				733EA9D114552F720047D916 /* Foundation.framework */,
+				733EA9D314552F720047D916 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		733EA9D514552F720047D916 /* Japan */ = {
+			isa = PBXGroup;
+			children = (
+				733EA9DE14552F720047D916 /* JapanAppDelegate.h */,
+				733EA9DF14552F720047D916 /* JapanAppDelegate.m */,
+				733EA9E114552F720047D916 /* iPhone */,
+				733EA9E814552F720047D916 /* iPad */,
+				733EA9D614552F720047D916 /* Supporting Files */,
+			);
+			path = Japan;
+			sourceTree = "<group>";
+		};
+		733EA9D614552F720047D916 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				733EA9D714552F720047D916 /* Japan-Info.plist */,
+				733EA9D814552F720047D916 /* InfoPlist.strings */,
+				733EA9DB14552F720047D916 /* Japan-Prefix.pch */,
+				733EA9DC14552F720047D916 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		733EA9E114552F720047D916 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				733EA9E214552F720047D916 /* JapanAppDelegate_iPhone.h */,
+				733EA9E314552F720047D916 /* JapanAppDelegate_iPhone.m */,
+				733EA9E514552F720047D916 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		733EA9E814552F720047D916 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				733EA9E914552F720047D916 /* JapanAppDelegate_iPad.h */,
+				733EA9EA14552F720047D916 /* JapanAppDelegate_iPad.m */,
+				733EA9EC14552F720047D916 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		733EA9CA14552F720047D916 /* Japan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 733EA9F114552F720047D916 /* Build configuration list for PBXNativeTarget "Japan" */;
+			buildPhases = (
+				733EA9C714552F720047D916 /* Sources */,
+				733EA9C814552F720047D916 /* Frameworks */,
+				733EA9C914552F720047D916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Japan;
+			productName = Japan;
+			productReference = 733EA9CB14552F720047D916 /* Japan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		733EA9C214552F720047D916 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Comedy Central";
+			};
+			buildConfigurationList = 733EA9C514552F720047D916 /* Build configuration list for PBXProject "Japan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 733EA9C014552F720047D916;
+			productRefGroup = 733EA9CC14552F720047D916 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				733EA9CA14552F720047D916 /* Japan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		733EA9C914552F720047D916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				733EA9DA14552F720047D916 /* InfoPlist.strings in Resources */,
+				733EA9E714552F720047D916 /* MainWindow_iPhone.xib in Resources */,
+				733EA9EE14552F720047D916 /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		733EA9C714552F720047D916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				733EA9DD14552F720047D916 /* main.m in Sources */,
+				733EA9E014552F720047D916 /* JapanAppDelegate.m in Sources */,
+				733EA9E414552F720047D916 /* JapanAppDelegate_iPhone.m in Sources */,
+				733EA9EB14552F720047D916 /* JapanAppDelegate_iPad.m in Sources */,
+				73AB0B2014552FBE0035A31C /* View.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		733EA9D814552F720047D916 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				733EA9D914552F720047D916 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		733EA9E514552F720047D916 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				733EA9E614552F720047D916 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		733EA9EC14552F720047D916 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				733EA9ED14552F720047D916 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		733EA9EF14552F720047D916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		733EA9F014552F720047D916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		733EA9F214552F720047D916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Japan/Japan-Prefix.pch";
+				INFOPLIST_FILE = "Japan/Japan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		733EA9F314552F720047D916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Japan/Japan-Prefix.pch";
+				INFOPLIST_FILE = "Japan/Japan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		733EA9C514552F720047D916 /* Build configuration list for PBXProject "Japan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				733EA9EF14552F720047D916 /* Debug */,
+				733EA9F014552F720047D916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		733EA9F114552F720047D916 /* Build configuration list for PBXNativeTarget "Japan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				733EA9F214552F720047D916 /* Debug */,
+				733EA9F314552F720047D916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 733EA9C214552F720047D916 /* Project object */;
+}
