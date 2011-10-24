@@ -14,9 +14,7 @@
 		733EA9DD14552F720047D916 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 733EA9DC14552F720047D916 /* main.m */; };
 		733EA9E014552F720047D916 /* JapanAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 733EA9DF14552F720047D916 /* JapanAppDelegate.m */; };
 		733EA9E414552F720047D916 /* JapanAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 733EA9E314552F720047D916 /* JapanAppDelegate_iPhone.m */; };
-		733EA9E714552F720047D916 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 733EA9E514552F720047D916 /* MainWindow_iPhone.xib */; };
 		733EA9EB14552F720047D916 /* JapanAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 733EA9EA14552F720047D916 /* JapanAppDelegate_iPad.m */; };
-		733EA9EE14552F720047D916 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 733EA9EC14552F720047D916 /* MainWindow_iPad.xib */; };
 		73AB0B2014552FBE0035A31C /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AB0B1F14552FBE0035A31C /* View.m */; };
 /* End PBXBuildFile section */
 
@@ -33,10 +31,8 @@
 		733EA9DF14552F720047D916 /* JapanAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JapanAppDelegate.m; sourceTree = "<group>"; };
 		733EA9E214552F720047D916 /* JapanAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JapanAppDelegate_iPhone.h; path = iPhone/JapanAppDelegate_iPhone.h; sourceTree = "<group>"; };
 		733EA9E314552F720047D916 /* JapanAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JapanAppDelegate_iPhone.m; path = iPhone/JapanAppDelegate_iPhone.m; sourceTree = "<group>"; };
-		733EA9E614552F720047D916 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
 		733EA9E914552F720047D916 /* JapanAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JapanAppDelegate_iPad.h; path = iPad/JapanAppDelegate_iPad.h; sourceTree = "<group>"; };
 		733EA9EA14552F720047D916 /* JapanAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JapanAppDelegate_iPad.m; path = iPad/JapanAppDelegate_iPad.m; sourceTree = "<group>"; };
-		733EA9ED14552F720047D916 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
 		73AB0B1E14552FBE0035A31C /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
 		73AB0B1F14552FBE0035A31C /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,7 +108,6 @@
 			children = (
 				733EA9E214552F720047D916 /* JapanAppDelegate_iPhone.h */,
 				733EA9E314552F720047D916 /* JapanAppDelegate_iPhone.m */,
-				733EA9E514552F720047D916 /* MainWindow_iPhone.xib */,
 			);
 			name = iPhone;
 			sourceTree = "<group>";
@@ -122,7 +117,6 @@
 			children = (
 				733EA9E914552F720047D916 /* JapanAppDelegate_iPad.h */,
 				733EA9EA14552F720047D916 /* JapanAppDelegate_iPad.m */,
-				733EA9EC14552F720047D916 /* MainWindow_iPad.xib */,
 			);
 			name = iPad;
 			sourceTree = "<group>";
@@ -178,8 +172,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				733EA9DA14552F720047D916 /* InfoPlist.strings in Resources */,
-				733EA9E714552F720047D916 /* MainWindow_iPhone.xib in Resources */,
-				733EA9EE14552F720047D916 /* MainWindow_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,22 +199,6 @@
 				733EA9D914552F720047D916 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		733EA9E514552F720047D916 /* MainWindow_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				733EA9E614552F720047D916 /* en */,
-			);
-			name = MainWindow_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		733EA9EC14552F720047D916 /* MainWindow_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				733EA9ED14552F720047D916 /* en */,
-			);
-			name = MainWindow_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
