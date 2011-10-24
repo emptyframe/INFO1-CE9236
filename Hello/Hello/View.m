@@ -27,9 +27,9 @@
 - (void)drawRect:(CGRect)rect
 {
     // Drawing code
-    UIFont *f = [UIFont systemFontOfSize: 32.0];
+    UIFont *f = [UIFont systemFontOfSize: 42.0];
     NSString *s = @"Hello, World!";
-    CGPoint p = CGPointMake( 100.0, 100.0);
+    CGPoint p = CGPointMake( 500.0, 500.0);
     [s drawAtPoint: p withFont: f];
 
 }
