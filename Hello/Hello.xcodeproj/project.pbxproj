@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		735CDAAD1455198F000E53CF /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 735CDAAA1455198F000E53CF /* Icon-72.png */; };
+		735CDAAE1455198F000E53CF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 735CDAAB1455198F000E53CF /* Icon.png */; };
+		735CDAAF1455198F000E53CF /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 735CDAAC1455198F000E53CF /* Icon@2x.png */; };
 		73F924AE144D1E8500C8C4D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F924AD144D1E8500C8C4D0 /* UIKit.framework */; };
 		73F924B0144D1E8500C8C4D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F924AF144D1E8500C8C4D0 /* Foundation.framework */; };
 		73F924B2144D1E8500C8C4D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F924B1144D1E8500C8C4D0 /* CoreGraphics.framework */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		735CDAAA1455198F000E53CF /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		735CDAAB1455198F000E53CF /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		735CDAAC1455198F000E53CF /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		73F924A9144D1E8500C8C4D0 /* Hello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hello.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F924AD144D1E8500C8C4D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		73F924AF144D1E8500C8C4D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -81,6 +87,9 @@
 		73F924B3144D1E8500C8C4D0 /* Hello */ = {
 			isa = PBXGroup;
 			children = (
+				735CDAAA1455198F000E53CF /* Icon-72.png */,
+				735CDAAB1455198F000E53CF /* Icon.png */,
+				735CDAAC1455198F000E53CF /* Icon@2x.png */,
 				73F924BC144D1E8500C8C4D0 /* HelloAppDelegate.h */,
 				73F924BD144D1E8600C8C4D0 /* HelloAppDelegate.m */,
 				73F924BF144D1E8600C8C4D0 /* iPhone */,
@@ -172,6 +181,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				73F924B8144D1E8500C8C4D0 /* InfoPlist.strings in Resources */,
+				735CDAAD1455198F000E53CF /* Icon-72.png in Resources */,
+				735CDAAE1455198F000E53CF /* Icon.png in Resources */,
+				735CDAAF1455198F000E53CF /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +297,7 @@
 				73F924D1144D1E8600C8C4D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
