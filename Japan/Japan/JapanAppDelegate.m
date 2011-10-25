@@ -7,16 +7,27 @@
 //
 
 #import "JapanAppDelegate.h"
+#import "View.h"
 
 @implementation JapanAppDelegate
 
 
-@synthesize window=_window;
+// @synthesize window=_window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
     // Override point for customization after application launch.
-    [self.window makeKeyAndVisible];
+    UIScreen *screen = [UIScreen mainScreen];
+    
+    view = [[View alloc] initWithFrame: screen.applicationFrame];
+    
+    window = [[UIWindow alloc] initWithFrame: screen.bounds];
+    
+    [window addSubview: view];
+                        
+    [window makeKeyAndVisible];
     return YES;
 }
 
@@ -59,10 +70,12 @@
      */
 }
 
+/*
 - (void)dealloc
 {
     [_window release];
     [super dealloc];
 }
+*/
 
 @end

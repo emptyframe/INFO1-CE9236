@@ -8,10 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JapanAppDelegate : NSObject <UIApplicationDelegate> {
+@class View;
+
+@interface JapanAppDelegate : UIResponder <UIApplicationDelegate> {
+    View *view;
+    UIWindow *window;
 
 }
 
-@property (nonatomic, retain) IBOutlet UIWindow *window;
+// @property (nonatomic, retain) IBOutlet UIWindow *window;
 
 @end
