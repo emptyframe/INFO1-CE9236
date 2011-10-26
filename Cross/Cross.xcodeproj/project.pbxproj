@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7341EE9C1457B65B00A1644B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7341EE9B1457B65B00A1644B /* UIKit.framework */; };
+		7341EE9E1457B65B00A1644B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7341EE9D1457B65B00A1644B /* Foundation.framework */; };
+		7341EEA01457B65B00A1644B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7341EE9F1457B65B00A1644B /* CoreGraphics.framework */; };
+		7341EEA61457B65B00A1644B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7341EEA41457B65B00A1644B /* InfoPlist.strings */; };
+		7341EEA91457B65B00A1644B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7341EEA81457B65B00A1644B /* main.m */; };
+		7341EEAC1457B65B00A1644B /* CrossAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7341EEAB1457B65B00A1644B /* CrossAppDelegate.m */; };
+		7341EEB01457B65B00A1644B /* CrossAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 7341EEAF1457B65B00A1644B /* CrossAppDelegate_iPhone.m */; };
+		7341EEB71457B65B00A1644B /* CrossAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 7341EEB61457B65B00A1644B /* CrossAppDelegate_iPad.m */; };
+		7341EEC21457B67800A1644B /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 7341EEC11457B67800A1644B /* View.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7341EE971457B65B00A1644B /* Cross.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cross.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7341EE9B1457B65B00A1644B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7341EE9D1457B65B00A1644B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7341EE9F1457B65B00A1644B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7341EEA31457B65B00A1644B /* Cross-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cross-Info.plist"; sourceTree = "<group>"; };
+		7341EEA51457B65B00A1644B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7341EEA71457B65B00A1644B /* Cross-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cross-Prefix.pch"; sourceTree = "<group>"; };
+		7341EEA81457B65B00A1644B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7341EEAA1457B65B00A1644B /* CrossAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrossAppDelegate.h; sourceTree = "<group>"; };
+		7341EEAB1457B65B00A1644B /* CrossAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrossAppDelegate.m; sourceTree = "<group>"; };
+		7341EEAE1457B65B00A1644B /* CrossAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CrossAppDelegate_iPhone.h; path = iPhone/CrossAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		7341EEAF1457B65B00A1644B /* CrossAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CrossAppDelegate_iPhone.m; path = iPhone/CrossAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		7341EEB51457B65B00A1644B /* CrossAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CrossAppDelegate_iPad.h; path = iPad/CrossAppDelegate_iPad.h; sourceTree = "<group>"; };
+		7341EEB61457B65B00A1644B /* CrossAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CrossAppDelegate_iPad.m; path = iPad/CrossAppDelegate_iPad.m; sourceTree = "<group>"; };
+		7341EEC01457B67800A1644B /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		7341EEC11457B67800A1644B /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7341EE941457B65B00A1644B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7341EE9C1457B65B00A1644B /* UIKit.framework in Frameworks */,
+				7341EE9E1457B65B00A1644B /* Foundation.framework in Frameworks */,
+				7341EEA01457B65B00A1644B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7341EE8C1457B65A00A1644B = {
+			isa = PBXGroup;
+			children = (
+				7341EEA11457B65B00A1644B /* Cross */,
+				7341EE9A1457B65B00A1644B /* Frameworks */,
+				7341EE981457B65B00A1644B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7341EE981457B65B00A1644B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7341EE971457B65B00A1644B /* Cross.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7341EE9A1457B65B00A1644B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7341EE9B1457B65B00A1644B /* UIKit.framework */,
+				7341EE9D1457B65B00A1644B /* Foundation.framework */,
+				7341EE9F1457B65B00A1644B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7341EEA11457B65B00A1644B /* Cross */ = {
+			isa = PBXGroup;
+			children = (
+				7341EEAA1457B65B00A1644B /* CrossAppDelegate.h */,
+				7341EEAB1457B65B00A1644B /* CrossAppDelegate.m */,
+				7341EEAD1457B65B00A1644B /* iPhone */,
+				7341EEB41457B65B00A1644B /* iPad */,
+				7341EEA21457B65B00A1644B /* Supporting Files */,
+				7341EEC01457B67800A1644B /* View.h */,
+				7341EEC11457B67800A1644B /* View.m */,
+			);
+			path = Cross;
+			sourceTree = "<group>";
+		};
+		7341EEA21457B65B00A1644B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7341EEA31457B65B00A1644B /* Cross-Info.plist */,
+				7341EEA41457B65B00A1644B /* InfoPlist.strings */,
+				7341EEA71457B65B00A1644B /* Cross-Prefix.pch */,
+				7341EEA81457B65B00A1644B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7341EEAD1457B65B00A1644B /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				7341EEAE1457B65B00A1644B /* CrossAppDelegate_iPhone.h */,
+				7341EEAF1457B65B00A1644B /* CrossAppDelegate_iPhone.m */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		7341EEB41457B65B00A1644B /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				7341EEB51457B65B00A1644B /* CrossAppDelegate_iPad.h */,
+				7341EEB61457B65B00A1644B /* CrossAppDelegate_iPad.m */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7341EE961457B65B00A1644B /* Cross */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7341EEBD1457B65B00A1644B /* Build configuration list for PBXNativeTarget "Cross" */;
+			buildPhases = (
+				7341EE931457B65B00A1644B /* Sources */,
+				7341EE941457B65B00A1644B /* Frameworks */,
+				7341EE951457B65B00A1644B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cross;
+			productName = Cross;
+			productReference = 7341EE971457B65B00A1644B /* Cross.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7341EE8E1457B65A00A1644B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Comedy Central";
+			};
+			buildConfigurationList = 7341EE911457B65A00A1644B /* Build configuration list for PBXProject "Cross" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7341EE8C1457B65A00A1644B;
+			productRefGroup = 7341EE981457B65B00A1644B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7341EE961457B65B00A1644B /* Cross */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7341EE951457B65B00A1644B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7341EEA61457B65B00A1644B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7341EE931457B65B00A1644B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7341EEA91457B65B00A1644B /* main.m in Sources */,
+				7341EEAC1457B65B00A1644B /* CrossAppDelegate.m in Sources */,
+				7341EEB01457B65B00A1644B /* CrossAppDelegate_iPhone.m in Sources */,
+				7341EEB71457B65B00A1644B /* CrossAppDelegate_iPad.m in Sources */,
+				7341EEC21457B67800A1644B /* View.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7341EEA41457B65B00A1644B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7341EEA51457B65B00A1644B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7341EEBB1457B65B00A1644B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7341EEBC1457B65B00A1644B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7341EEBE1457B65B00A1644B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cross/Cross-Prefix.pch";
+				INFOPLIST_FILE = "Cross/Cross-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7341EEBF1457B65B00A1644B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cross/Cross-Prefix.pch";
+				INFOPLIST_FILE = "Cross/Cross-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7341EE911457B65A00A1644B /* Build configuration list for PBXProject "Cross" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7341EEBB1457B65B00A1644B /* Debug */,
+				7341EEBC1457B65B00A1644B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7341EEBD1457B65B00A1644B /* Build configuration list for PBXNativeTarget "Cross" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7341EEBE1457B65B00A1644B /* Debug */,
+				7341EEBF1457B65B00A1644B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7341EE8E1457B65A00A1644B /* Project object */;
+}
