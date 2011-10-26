@@ -18,6 +18,12 @@
         // Initialization code
         self.backgroundColor = [UIColor whiteColor];
     }
+    
+    CGFloat w = self.bounds.size.width;
+    CGFloat h = self.bounds.size.height;
+    
+    self.bounds = CGRectMake(-w / 2, -h / 2, w, h);
+    
     return self;
 }
 
@@ -29,12 +35,17 @@
     CGRect b = self.bounds;
     CGFloat radius = .3 * b.size.width; // in pixels
     
+    /* Check for the Origin coordinate
+    UIFont *f = [UIFont systemFontOfSize: 200];
+    [@"Origin" drawAtPoint:CGPointZero withFont:f];
+    */
+    
     /* Create the inivislbe square that will surround the circle.
      Place the upper left corner of the square at the upper left corner of the View.
      
      */
     
-    CGRect r = CGRectMake(b.origin.x + b.size.width / 2 - radius, b.origin.y + b.size.height / 2 - radius, 2 * radius, 2 * radius);
+    CGRect r = CGRectMake( -radius, -radius, 2 * radius, 2 * radius);
     
     CGContextRef c = UIGraphicsGetCurrentContext();
     
@@ -42,9 +53,13 @@
     
     CGContextAddEllipseInRect(c, r);
     
+    CGContextTranslateCTM(c, b.size.width / 2, b.size.height / 2);
+    
     CGContextSetRGBFillColor(c, 1.0, 0.0, 0.0, 1.0);
     
     CGContextFillPath(c);
+    
+    
 }
 
 
