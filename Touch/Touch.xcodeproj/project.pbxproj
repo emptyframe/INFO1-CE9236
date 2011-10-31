@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73E6E2BE145E49EF00D2AC47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E6E2BD145E49EF00D2AC47 /* UIKit.framework */; };
+		73E6E2C0145E49EF00D2AC47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E6E2BF145E49EF00D2AC47 /* Foundation.framework */; };
+		73E6E2C2145E49EF00D2AC47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E6E2C1145E49EF00D2AC47 /* CoreGraphics.framework */; };
+		73E6E2C8145E49F000D2AC47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73E6E2C6145E49F000D2AC47 /* InfoPlist.strings */; };
+		73E6E2CB145E49F000D2AC47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E6E2CA145E49F000D2AC47 /* main.m */; };
+		73E6E2CE145E49F000D2AC47 /* TouchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E6E2CD145E49F000D2AC47 /* TouchAppDelegate.m */; };
+		73E6E2D2145E49F000D2AC47 /* TouchAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E6E2D1145E49F000D2AC47 /* TouchAppDelegate_iPhone.m */; };
+		73E6E2D9145E49F000D2AC47 /* TouchAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E6E2D8145E49F000D2AC47 /* TouchAppDelegate_iPad.m */; };
+		73E6E2E4145E4A4600D2AC47 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E6E2E3145E4A4600D2AC47 /* View.m */; };
+		73E6E2E7145E4A5500D2AC47 /* LittleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E6E2E6145E4A5500D2AC47 /* LittleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		73E6E2B9145E49EF00D2AC47 /* Touch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E6E2BD145E49EF00D2AC47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		73E6E2BF145E49EF00D2AC47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		73E6E2C1145E49EF00D2AC47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		73E6E2C5145E49EF00D2AC47 /* Touch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Touch-Info.plist"; sourceTree = "<group>"; };
+		73E6E2C7145E49F000D2AC47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		73E6E2C9145E49F000D2AC47 /* Touch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Touch-Prefix.pch"; sourceTree = "<group>"; };
+		73E6E2CA145E49F000D2AC47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73E6E2CC145E49F000D2AC47 /* TouchAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchAppDelegate.h; sourceTree = "<group>"; };
+		73E6E2CD145E49F000D2AC47 /* TouchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchAppDelegate.m; sourceTree = "<group>"; };
+		73E6E2D0145E49F000D2AC47 /* TouchAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TouchAppDelegate_iPhone.h; path = iPhone/TouchAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		73E6E2D1145E49F000D2AC47 /* TouchAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TouchAppDelegate_iPhone.m; path = iPhone/TouchAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		73E6E2D7145E49F000D2AC47 /* TouchAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TouchAppDelegate_iPad.h; path = iPad/TouchAppDelegate_iPad.h; sourceTree = "<group>"; };
+		73E6E2D8145E49F000D2AC47 /* TouchAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TouchAppDelegate_iPad.m; path = iPad/TouchAppDelegate_iPad.m; sourceTree = "<group>"; };
+		73E6E2E2145E4A4600D2AC47 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		73E6E2E3145E4A4600D2AC47 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		73E6E2E5145E4A5500D2AC47 /* LittleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LittleView.h; sourceTree = "<group>"; };
+		73E6E2E6145E4A5500D2AC47 /* LittleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LittleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73E6E2B6145E49EF00D2AC47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E6E2BE145E49EF00D2AC47 /* UIKit.framework in Frameworks */,
+				73E6E2C0145E49EF00D2AC47 /* Foundation.framework in Frameworks */,
+				73E6E2C2145E49EF00D2AC47 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73E6E2AE145E49EF00D2AC47 = {
+			isa = PBXGroup;
+			children = (
+				73E6E2C3145E49EF00D2AC47 /* Touch */,
+				73E6E2BC145E49EF00D2AC47 /* Frameworks */,
+				73E6E2BA145E49EF00D2AC47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73E6E2BA145E49EF00D2AC47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73E6E2B9145E49EF00D2AC47 /* Touch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73E6E2BC145E49EF00D2AC47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73E6E2BD145E49EF00D2AC47 /* UIKit.framework */,
+				73E6E2BF145E49EF00D2AC47 /* Foundation.framework */,
+				73E6E2C1145E49EF00D2AC47 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73E6E2C3145E49EF00D2AC47 /* Touch */ = {
+			isa = PBXGroup;
+			children = (
+				73E6E2CC145E49F000D2AC47 /* TouchAppDelegate.h */,
+				73E6E2CD145E49F000D2AC47 /* TouchAppDelegate.m */,
+				73E6E2CF145E49F000D2AC47 /* iPhone */,
+				73E6E2D6145E49F000D2AC47 /* iPad */,
+				73E6E2C4145E49EF00D2AC47 /* Supporting Files */,
+			);
+			path = Touch;
+			sourceTree = "<group>";
+		};
+		73E6E2C4145E49EF00D2AC47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73E6E2C5145E49EF00D2AC47 /* Touch-Info.plist */,
+				73E6E2C6145E49F000D2AC47 /* InfoPlist.strings */,
+				73E6E2C9145E49F000D2AC47 /* Touch-Prefix.pch */,
+				73E6E2CA145E49F000D2AC47 /* main.m */,
+				73E6E2E2145E4A4600D2AC47 /* View.h */,
+				73E6E2E5145E4A5500D2AC47 /* LittleView.h */,
+				73E6E2E6145E4A5500D2AC47 /* LittleView.m */,
+				73E6E2E3145E4A4600D2AC47 /* View.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73E6E2CF145E49F000D2AC47 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				73E6E2D0145E49F000D2AC47 /* TouchAppDelegate_iPhone.h */,
+				73E6E2D1145E49F000D2AC47 /* TouchAppDelegate_iPhone.m */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		73E6E2D6145E49F000D2AC47 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				73E6E2D7145E49F000D2AC47 /* TouchAppDelegate_iPad.h */,
+				73E6E2D8145E49F000D2AC47 /* TouchAppDelegate_iPad.m */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73E6E2B8145E49EF00D2AC47 /* Touch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73E6E2DF145E49F000D2AC47 /* Build configuration list for PBXNativeTarget "Touch" */;
+			buildPhases = (
+				73E6E2B5145E49EF00D2AC47 /* Sources */,
+				73E6E2B6145E49EF00D2AC47 /* Frameworks */,
+				73E6E2B7145E49EF00D2AC47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Touch;
+			productName = Touch;
+			productReference = 73E6E2B9145E49EF00D2AC47 /* Touch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73E6E2B0145E49EF00D2AC47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Comedy Central";
+			};
+			buildConfigurationList = 73E6E2B3145E49EF00D2AC47 /* Build configuration list for PBXProject "Touch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 73E6E2AE145E49EF00D2AC47;
+			productRefGroup = 73E6E2BA145E49EF00D2AC47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73E6E2B8145E49EF00D2AC47 /* Touch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73E6E2B7145E49EF00D2AC47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E6E2C8145E49F000D2AC47 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73E6E2B5145E49EF00D2AC47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E6E2CB145E49F000D2AC47 /* main.m in Sources */,
+				73E6E2CE145E49F000D2AC47 /* TouchAppDelegate.m in Sources */,
+				73E6E2D2145E49F000D2AC47 /* TouchAppDelegate_iPhone.m in Sources */,
+				73E6E2D9145E49F000D2AC47 /* TouchAppDelegate_iPad.m in Sources */,
+				73E6E2E4145E4A4600D2AC47 /* View.m in Sources */,
+				73E6E2E7145E4A5500D2AC47 /* LittleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		73E6E2C6145E49F000D2AC47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73E6E2C7145E49F000D2AC47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73E6E2DD145E49F000D2AC47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73E6E2DE145E49F000D2AC47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		73E6E2E0145E49F000D2AC47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Touch/Touch-Prefix.pch";
+				INFOPLIST_FILE = "Touch/Touch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		73E6E2E1145E49F000D2AC47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Touch/Touch-Prefix.pch";
+				INFOPLIST_FILE = "Touch/Touch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73E6E2B3145E49EF00D2AC47 /* Build configuration list for PBXProject "Touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73E6E2DD145E49F000D2AC47 /* Debug */,
+				73E6E2DE145E49F000D2AC47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73E6E2DF145E49F000D2AC47 /* Build configuration list for PBXNativeTarget "Touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73E6E2E0145E49F000D2AC47 /* Debug */,
+				73E6E2E1145E49F000D2AC47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73E6E2B0145E49EF00D2AC47 /* Project object */;
+}
