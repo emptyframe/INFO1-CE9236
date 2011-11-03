@@ -12,6 +12,7 @@
 
 @interface View : UIView {
     LittleView *littleView;
+    CGRect mineLocation;
 }
 
 @end

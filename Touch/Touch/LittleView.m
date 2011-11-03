@@ -28,7 +28,10 @@
 {
     // Drawing code
     UIFont *font = [UIFont systemFontOfSize: 20];
-    [@"Hello!" drawAtPoint: CGPointZero withFont: font];
+    
+    NSString *label = @"Find a Mine!";
+    
+    [label drawAtPoint: CGPointZero withFont: font];
 }
 
 

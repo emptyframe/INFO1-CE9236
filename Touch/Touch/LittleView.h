@@ -10,7 +10,6 @@
 
 
 @interface LittleView : UIView {
-    
 }
 
 @end
