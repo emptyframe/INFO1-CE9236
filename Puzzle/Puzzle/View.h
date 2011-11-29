@@ -14,7 +14,7 @@
     NSUInteger emptyRow;
     NSUInteger emptyCol;
     CGFloat margin;
-    NSSet *set;
+    NSArray *array;
 }
 
 - (void) place: (TileView *) tileView atRow: (NSUInteger) row col: (NSUInteger) col;
