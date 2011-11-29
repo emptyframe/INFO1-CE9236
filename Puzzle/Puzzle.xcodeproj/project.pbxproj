@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		731253E21484632F00430C74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731253E11484632F00430C74 /* UIKit.framework */; };
+		731253E41484632F00430C74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731253E31484632F00430C74 /* Foundation.framework */; };
+		731253E61484632F00430C74 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731253E51484632F00430C74 /* CoreGraphics.framework */; };
+		731253EC1484632F00430C74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 731253EA1484632F00430C74 /* InfoPlist.strings */; };
+		731253EE1484632F00430C74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 731253ED1484632F00430C74 /* main.m */; };
+		731253F21484632F00430C74 /* PuzzelAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 731253F11484632F00430C74 /* PuzzelAppDelegate.m */; };
+		731253FA1484875B00430C74 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 731253F91484875B00430C74 /* View.m */; };
+		731253FD1484876600430C74 /* TileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 731253FC1484876600430C74 /* TileView.m */; };
+		7312540714849EC800430C74 /* 00.png in Resources */ = {isa = PBXBuildFile; fileRef = 731253FE14849EC700430C74 /* 00.png */; };
+		7312540814849EC800430C74 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 731253FF14849EC700430C74 /* 01.png */; };
+		7312540914849EC800430C74 /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = 7312540014849EC700430C74 /* 02.png */; };
+		7312540A14849EC800430C74 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 7312540114849EC700430C74 /* 10.png */; };
+		7312540B14849EC800430C74 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 7312540214849EC700430C74 /* 11.png */; };
+		7312540C14849EC800430C74 /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = 7312540314849EC700430C74 /* 12.png */; };
+		7312540D14849EC800430C74 /* 20.png in Resources */ = {isa = PBXBuildFile; fileRef = 7312540414849EC700430C74 /* 20.png */; };
+		7312540E14849EC800430C74 /* 21.png in Resources */ = {isa = PBXBuildFile; fileRef = 7312540514849EC700430C74 /* 21.png */; };
+		7312540F14849EC800430C74 /* 22.png in Resources */ = {isa = PBXBuildFile; fileRef = 7312540614849EC800430C74 /* 22.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		731253DD1484632F00430C74 /* Puzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Puzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		731253E11484632F00430C74 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		731253E31484632F00430C74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		731253E51484632F00430C74 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		731253E91484632F00430C74 /* Puzzle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Puzzle-Info.plist"; sourceTree = "<group>"; };
+		731253EB1484632F00430C74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		731253ED1484632F00430C74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		731253EF1484632F00430C74 /* Puzzle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Puzzle-Prefix.pch"; sourceTree = "<group>"; };
+		731253F01484632F00430C74 /* PuzzelAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PuzzelAppDelegate.h; sourceTree = "<group>"; };
+		731253F11484632F00430C74 /* PuzzelAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PuzzelAppDelegate.m; sourceTree = "<group>"; };
+		731253F81484875B00430C74 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		731253F91484875B00430C74 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		731253FB1484876600430C74 /* TileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileView.h; sourceTree = "<group>"; };
+		731253FC1484876600430C74 /* TileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileView.m; sourceTree = "<group>"; };
+		731253FE14849EC700430C74 /* 00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 00.png; sourceTree = "<group>"; };
+		731253FF14849EC700430C74 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		7312540014849EC700430C74 /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
+		7312540114849EC700430C74 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		7312540214849EC700430C74 /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		7312540314849EC700430C74 /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		7312540414849EC700430C74 /* 20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 20.png; sourceTree = "<group>"; };
+		7312540514849EC700430C74 /* 21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 21.png; sourceTree = "<group>"; };
+		7312540614849EC800430C74 /* 22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		731253DA1484632F00430C74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731253E21484632F00430C74 /* UIKit.framework in Frameworks */,
+				731253E41484632F00430C74 /* Foundation.framework in Frameworks */,
+				731253E61484632F00430C74 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		731253D21484632F00430C74 = {
+			isa = PBXGroup;
+			children = (
+				731253E71484632F00430C74 /* Puzzle */,
+				731253E01484632F00430C74 /* Frameworks */,
+				731253DE1484632F00430C74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		731253DE1484632F00430C74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				731253DD1484632F00430C74 /* Puzzle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		731253E01484632F00430C74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				731253E11484632F00430C74 /* UIKit.framework */,
+				731253E31484632F00430C74 /* Foundation.framework */,
+				731253E51484632F00430C74 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		731253E71484632F00430C74 /* Puzzle */ = {
+			isa = PBXGroup;
+			children = (
+				731253FE14849EC700430C74 /* 00.png */,
+				731253FF14849EC700430C74 /* 01.png */,
+				7312540014849EC700430C74 /* 02.png */,
+				7312540114849EC700430C74 /* 10.png */,
+				7312540214849EC700430C74 /* 11.png */,
+				7312540314849EC700430C74 /* 12.png */,
+				7312540414849EC700430C74 /* 20.png */,
+				7312540514849EC700430C74 /* 21.png */,
+				7312540614849EC800430C74 /* 22.png */,
+				731253F01484632F00430C74 /* PuzzelAppDelegate.h */,
+				731253F11484632F00430C74 /* PuzzelAppDelegate.m */,
+				731253E81484632F00430C74 /* Supporting Files */,
+				731253F81484875B00430C74 /* View.h */,
+				731253FB1484876600430C74 /* TileView.h */,
+				731253FC1484876600430C74 /* TileView.m */,
+				731253F91484875B00430C74 /* View.m */,
+			);
+			path = Puzzle;
+			sourceTree = "<group>";
+		};
+		731253E81484632F00430C74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				731253E91484632F00430C74 /* Puzzle-Info.plist */,
+				731253EA1484632F00430C74 /* InfoPlist.strings */,
+				731253ED1484632F00430C74 /* main.m */,
+				731253EF1484632F00430C74 /* Puzzle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		731253DC1484632F00430C74 /* Puzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 731253F51484632F00430C74 /* Build configuration list for PBXNativeTarget "Puzzle" */;
+			buildPhases = (
+				731253D91484632F00430C74 /* Sources */,
+				731253DA1484632F00430C74 /* Frameworks */,
+				731253DB1484632F00430C74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Puzzle;
+			productName = Puzzle;
+			productReference = 731253DD1484632F00430C74 /* Puzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		731253D41484632F00430C74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Comedy Central";
+			};
+			buildConfigurationList = 731253D71484632F00430C74 /* Build configuration list for PBXProject "Puzzle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 731253D21484632F00430C74;
+			productRefGroup = 731253DE1484632F00430C74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				731253DC1484632F00430C74 /* Puzzle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		731253DB1484632F00430C74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731253EC1484632F00430C74 /* InfoPlist.strings in Resources */,
+				7312540714849EC800430C74 /* 00.png in Resources */,
+				7312540814849EC800430C74 /* 01.png in Resources */,
+				7312540914849EC800430C74 /* 02.png in Resources */,
+				7312540A14849EC800430C74 /* 10.png in Resources */,
+				7312540B14849EC800430C74 /* 11.png in Resources */,
+				7312540C14849EC800430C74 /* 12.png in Resources */,
+				7312540D14849EC800430C74 /* 20.png in Resources */,
+				7312540E14849EC800430C74 /* 21.png in Resources */,
+				7312540F14849EC800430C74 /* 22.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		731253D91484632F00430C74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731253EE1484632F00430C74 /* main.m in Sources */,
+				731253F21484632F00430C74 /* PuzzelAppDelegate.m in Sources */,
+				731253FA1484875B00430C74 /* View.m in Sources */,
+				731253FD1484876600430C74 /* TileView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		731253EA1484632F00430C74 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				731253EB1484632F00430C74 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		731253F31484632F00430C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		731253F41484632F00430C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		731253F61484632F00430C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puzzle/Puzzle-Prefix.pch";
+				INFOPLIST_FILE = "Puzzle/Puzzle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		731253F71484632F00430C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puzzle/Puzzle-Prefix.pch";
+				INFOPLIST_FILE = "Puzzle/Puzzle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		731253D71484632F00430C74 /* Build configuration list for PBXProject "Puzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731253F31484632F00430C74 /* Debug */,
+				731253F41484632F00430C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		731253F51484632F00430C74 /* Build configuration list for PBXNativeTarget "Puzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731253F61484632F00430C74 /* Debug */,
+				731253F71484632F00430C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 731253D41484632F00430C74 /* Project object */;
+}
