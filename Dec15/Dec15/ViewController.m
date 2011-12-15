@@ -123,47 +123,25 @@
                                         error: &error
                     ];
     
-	UIViewController *viewController = 	[[ViewController alloc] initWithNibName: nil bundle: nil];
-    
-	viewController.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle: @"OK"
-                                                                                        style: UIBarButtonItemStyleDone
-                                                                                       target: self
-                                                                                       action: @selector(dismissModalViewController)
-                                                        ];
-    
-	//Display a modal view to say if file was written successfully.
-    
-	UINavigationController *navigationController =
-    [[UINavigationController alloc] initWithRootViewController: viewController];
-    
-	UITextView *v = [[UITextView alloc] initWithFrame: [UIScreen mainScreen].applicationFrame];
-	viewController.view = v;
-	v.backgroundColor = [UIColor orangeColor];
-	v.font = [UIFont systemFontOfSize: 20];
-	v.editable = NO;
-    
 	if (success) {
-		NSFileManager *manager = [NSFileManager defaultManager];
-		NSDictionary *attributes = [manager attributesOfItemAtPath: pathName error: nil];
-        
-		v.text = [NSString stringWithFormat:
-                  @"%@ byte(s) written\n"
-                  @"by user %@\n"
-                  @"on %@\n"
-                  @"to file %@\n"
-                  @"in directory\n"
-                  @"%@",
-                  [attributes objectForKey: @"NSFileSize"],
-                  [attributes objectForKey: @"NSFileOwnerAccountName"],
-                  [attributes objectForKey: @"NSFileModificationDate"],
-                  fileName,
-                  dirName
-                  ];
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle: @"File Saved!"
+                                                        message: nil
+                                                       delegate: nil	//the ViewController
+                                              cancelButtonTitle: @"Close"
+                                              otherButtonTitles: nil
+                              ];
+        [alert show];
+
 	} else {
-		v.text = error.description;
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle: @"Save Failed!"
+                                                        message: error.description
+                                                       delegate: nil	//the ViewController
+                                              cancelButtonTitle: @"Close"
+                                              otherButtonTitles: nil
+                              ];
+        [alert show]; 
 	}
     
-	[self presentModalViewController: navigationController animated: YES];
 }
 
 - (void) dismissModalViewController {
